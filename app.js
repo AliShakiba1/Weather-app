@@ -25,7 +25,7 @@ form.addEventListener("submit", (e) => {
             </h2>
             <div class='city-temp'>${Math.round(main.temp)}</div>
             <figure>
-                <img class='city-icon' src=${icon} alt ='city' >
+                <img class='city-icon' src=${icon2} alt ='city' >
                 <figurecaption>${weather[0].description}</figurecaption>
             </figure>
             </h2>
